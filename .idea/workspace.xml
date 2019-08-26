@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f87c7ed-ef34-4ec2-bfb9-f44d321ca01e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution>
+      <phar pharPath="D:\server\OSPanel\modules\php\PHP_7.2-x64\composer.phar" interpreterId="53b5f0a1-9f21-4408-a303-29e00e06110a" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../modules/php/PHP_7.2-x64" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1PvqVcVsHCpTsaGgILofPTWzjSK" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/git/googleAnalytics" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\server\OSPanel\domains\googlebot.loc\application\models\DbTable" />
+      <recent name="D:\server\OSPanel\domains\googlebot.loc\application\views\scripts" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="zf1 create action history index" />
+      <command value="zf1 create action requestAdd index" />
+      <command value="zf1 create db-table Request request" />
+      <command value="zf1 create model Request" />
+      <command value="zf1 create model RequestMapper" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f87c7ed-ef34-4ec2-bfb9-f44d321ca01e" name="Default Changelist" comment="" />
+      <created>1566764942682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566764942682</updated>
+      <workItem from="1566764943919" duration="144000" />
+      <workItem from="1566765140458" duration="14077000" />
+      <workItem from="1566779646031" duration="20412000" />
+      <workItem from="1566804427380" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
