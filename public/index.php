@@ -17,6 +17,9 @@ set_include_path(implode(PATH_SEPARATOR, array(
 /** Zend_Application */
 require_once 'Zend/Application.php';
 
+/** Simple_Html_Dom */
+require_once 'simplehtmldom_1_5/simple_html_dom.php';
+
 // Create application, bootstrap, and run
 $application = new Zend_Application(
     APPLICATION_ENV,
