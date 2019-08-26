@@ -1,0 +1,35 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <?php if (isset($this->previous)): ?>
+            <li class="page-item"><a class="page-link" href="<?php echo $this->url(array('page' => $this->first)); ?>">&laquo;</a></li>
+        <?php else: ?>
+            <li class="page-item disabled"><a class="page-link" href="<?php echo $this->url(array('page' => $this->first)); ?>">&laquo;</a></li>
+        <?php endif; ?>
+
+        <?php if (isset($this->previous)): ?>
+            <li class="page-item"><a class="page-link" href="<?php echo $this->url(array('page' => $this->previous)); ?>">&larr;</a></li>
+        <?php else: ?>
+            <li class="page-item disabled"><a class="page-link" href="<?php echo $this->url(array('page' => $this->previous)); ?>">&larr;</a></li>
+        <?php endif; ?>
+        <!-- Numbered page links -->
+        <?php foreach ($this->pagesInRange as $page): ?>
+            <?php if ($page != $this->current): ?>
+                <li class="page-item"><a class="page-link" href="<?php echo $this->url(array('page' => $page)); ?>"><?php echo $page; ?></a></li>
+            <?php else: ?>
+                <li class="page-item active"><a class="page-link" href="<?php echo $this->url(array('page' => $page)); ?>"><?php echo $page; ?></a></li>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        <!-- Next page link -->
+        <?php if (isset($this->next)): ?>
+            <li class="page-item"><a class="page-link" href="<?php echo $this->url(array('page' => $this->next)); ?>">&rarr;</a></li>
+        <?php else: ?>
+            <li class="page-item disabled"><a class="page-link" href="<?php echo $this->url(array('page' => $this->next)); ?>">&rarr;</a></li>
+        <?php endif; ?>
+        <!-- Last page link -->
+        <?php if (isset($this->next)): ?>
+            <li class="page-item"><a class="page-link" href="<?php echo $this->url(array('page' => $this->last)); ?>">&raquo;</a></li>
+        <?php else: ?>
+            <li class="page-item disabled"><a class="page-link" href="<?php echo $this->url(array('page' => $this->last)); ?>">&raquo;</a></li>
+        <?php endif; ?>
+    </ul>
+</nav>
